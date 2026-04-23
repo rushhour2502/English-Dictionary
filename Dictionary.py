@@ -12,7 +12,7 @@ from difflib import get_close_matches
 #    print(f"ERROR! COULD NOT RETRIEVE DATA. status code: {response.status_code}")
 
 # # for local data
-data= json.load(open("C:/Users/USER/Desktop/pypros/Udemy projects/15 python projects/data.json"))
+data= json.load(open("C:/.../data.json"))
 
 def translate(word):
     word= word.lower()
